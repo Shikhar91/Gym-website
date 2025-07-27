@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    background-color:black;
+    overflow-x: hidden;
+}
+.nav-item:hover{
+    background-color:rgb(255, 193, 7) !important;
+    border: solid 2px 2px;
+    border-radius: 5px 5px;
+}
+
+.details{
+    width: 100%;
+    height: 90vh; 
+    background-color: #cccccc;
+    background-image: url(https://wallpaperaccess.com/full/2968326.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+   
+}
+.details h1{
+    font-size: 40px;
+    font-family: arial;
+
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 48px;
+
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+
+.btn:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 20px orange;
+}
+
+.section{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#about{
+    background-image: url(https://wallpapercave.com/wp/wp3132312.jpg);
+   
+    height: 95vh;
+  
+}
+
+
+#features{
+    background-image: url(https://wallpapercave.com/wp/wp3173142.jpg);
+    background-size: cover;
+    
+    height: 190vh ;
+   
+
+}
+
+.all-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.feature-box {
+    
+    background-color: #212529 ;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 150px;
+    
+}
+
+.card{
+    
+    border: none !important;
+    box-shadow: none !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(5px);
+   margin-top: 13px;
+}
+
+@media (min-width:992px){
+    .card{
+        margin-top: 80px;
+    }
+}
+
+ 
+
+.all-input{
+    padding-top: 70px;
+    
+}
+.input{
+    background: transparent;
+    
+}
+
+#contact{
+    background-image: url(https://th.bing.com/th/id/R.35e6e83e8fe5ab6e543697afcd35e454?rik=RXEeRJf2PSfA6A&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fFitness-hd-wallpapers-for-mobile.jpg&ehk=bp40IUmn1d7pDifMNNjWVeYFTkzhcnyeDfxbG2nE%2fnE%3d&risl=&pid=ImgRaw&r=0);
+   
+    height: 95vh;
+    background-size: cover;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    
+    
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    color: white;
+    
+}
+
+.contact-form button {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 20px orange;
+}
+
+
+.contact {
+    background-color: #081b29;
+    color: #ededed;
+    padding: 100px 10%;
+}
+
+.contact .container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact .heading1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#contact .heading1::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: orange;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+#contact .method i {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+#contact .method p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #ededed;
+}
+
+  .form input, textarea{
+    background-color: transparent;
+  }
